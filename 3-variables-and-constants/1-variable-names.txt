@@ -1,0 +1,23 @@
+A variable is a named data storage location in computer memory.
+The name can contain letters, digits, and the underscore character.
+The first character of the name must be letter.
+Case matters.
+C keywords cannot be used as variable name.
+Memory is measured in bytes.
+Each byte consists of 8 bits.
+A bit is a binary digit with value of either 1 or 0.
+
+NUMERIC VARIABLE TYPES:
+Type                              Keyword       Bytes Required Range 
+Character                         char            1           -128 to 127
+Integer                           int             2 (depends) -32768 to 32767
+Short integer                     short           2           -32768 to 32767
+Long integer                      long            4 (depends  -2,147483648 to 2,147,438,647 
+Unsigned character                unsigned char   1            0 to 255
+Unsigned integer                  unsigned int    2 (depends)  0 to 65535
+Unsigned short int                unsigned short  2            0 to 65535
+Unsigned long int                 unsigned long   4            0 to 4,294967,295
+Single-precision floating point   float           4            1.2E-38 to 3.4E38
+Double-precision floating point   double          8            2.2E-308 to 1.8E308
+
+

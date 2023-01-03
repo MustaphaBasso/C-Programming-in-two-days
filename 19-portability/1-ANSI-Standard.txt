@@ -1,0 +1,26 @@
+Portability doesn't happen by accident.  It occurs when you adhere 
+to a set of standards adhered to by other programmers and your compiler.
+For this reason, it is wise to choose a compiler that follows the standards for C programming set by the American National Standards Institute (ANSI).  The ANSI committee sets standards for many areas including other programming languages.
+
+The ANSI Keywords:
+The C language contains relatively few keywords.  A keyword is a word that is reserved for a program command.  The ANSI C keywords are listed below:
+
+asm           auto            break 
+case          char            const 
+continue      default         do 
+double        else            enum 
+extern        float           for 
+goto          if              int 
+long          register        return 
+short         signed          sizeof 
+static        struct          switch 
+typedef       union           unsigned 
+void          volatile        while 
+
+
+The predefined constant __STDC__ is used to help guarantee ANSI compatibility.
+When the listing is compiled with ANSI compatibility set on, this constant is defined generally as 1.  It is undefined when ANSI compatibility isn't on.
+
+Portable Numeric Variables:
+The numeric values that can be stored in a specific variable type might not be consistent across compilers.  
+Run the program"3-variables-and-constants\2-sizeof.c" to determine the numeric values of the various data types of your compiler.
