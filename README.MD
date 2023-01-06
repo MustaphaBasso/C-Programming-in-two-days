@@ -6,8 +6,8 @@ In order to compile and run these programs, you can do so either by using an IDE
       gcc filename.c  -o filname.exe.
 For a clang compiler, 
       cl square.c calc.c -o square.exe.
-      
 etc...
+
 Make sure your environment variable are exported properly, and they point to the appropriate paths to the c libraries and include files.
 
 After successful compilation, run the executable by invoking it at the command line.
