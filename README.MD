@@ -10,4 +10,4 @@ For a clang compiler,
 etc...
 Make sure your environment variable are exported properly, and they point to the appropriate paths to the c libraries and include files.
 
-After successful compilation, the executable by invoking it at the command line.
+After successful compilation, run the executable by invoking it at the command line.
